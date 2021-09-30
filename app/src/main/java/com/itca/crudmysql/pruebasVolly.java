@@ -85,7 +85,7 @@ private Button btn;
     }
     private void peticionJson(){
             String url ="http://192.168.57.1/service2021/json1.php";
-            String url1 = URL_PRUEBA;
+            String url1 = Setting_Var.URL_PRUEBA;
         JsonObjectRequest jsonObjectRequest= new JsonObjectRequest(Request.Method.GET, url1, (String) null, new Response.Listener<JSONObject>() {
             @Override
             public void onResponse(JSONObject jsonObject) {
